@@ -1,3 +1,3 @@
 # pythonScripts
 
-Python functions for e.g. data or image processing
+Python functions for data or image processing
