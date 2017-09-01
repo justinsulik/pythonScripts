@@ -1,3 +1,6 @@
 # pythonScripts
 
-Python functions for data or image processing
+Python scripts for data or image processing. Includes:
+
+- perimetric complexity
+- Krippendorff's alpha
