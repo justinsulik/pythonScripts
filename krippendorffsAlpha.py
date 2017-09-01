@@ -58,7 +58,7 @@ def difference_metric(pair,var_type):
     elif var_type == 'nominal':
         diff = 0 if pair[0]==pair[1] else 1
     else:
-        raise ValueError("var_type must be in ['interval', 'nominal'].")
+        raise ValueError("var_type must be in ['interval', 'nominal']. Feel free to implement other difference metrics as descripted in the links below.")
     return(diff)
 
 
@@ -71,8 +71,6 @@ def krippAlpha(data_file, var_type='interval'):
 
     args: datafile - a csv file with raters/coders as rows and items/units as columns. See test.py for examples
     """
-    # if var_type=='nominal':
-    #     raise ValueError("Not yet implemented for nominal data.")
     df = pd.read_csv(data_file, header=0, index_col=0)
 
     #Coincidence matrix
